@@ -1,33 +1,20 @@
 
 <?php
-/**********************************************************************************
-
-                   ######  hack by : Siv.S  ######
-
-
-
- ---------------
- PDOconfig Class
- ---------------
-
-     PDOconfig class which extends the PDO class and can be used to 
-     initialise the dns , username and password
-
-     instead of calling the PDO construct every time with the
-         DNS string, username and password 
-     PDOconfig class object should be called
-     
- --------------
-     Usage
- ---------------
-   
-     $pdo = new PDOConfig;
-
-  //same as the ordinary pdo  
-    $prepare = $pdo->prepare(...);
-    $result  = $prepare->execute();
-
- ************************************************************************************/
+/**
+ *
+ *                 ♣♣♣♦♦♠  hack by : SIV.S  ♠♦♦♣♣♣
+ *
+ *
+ *
+ *  [ PDOCONFIG CLASS ] 
+ *
+ *    PDOconfig class which extends the PDO class and 
+ *    instead of calling the PDO construct every time with the
+ *    DNS string, username and password 
+ *    PDOconfig class object should be used.
+ *
+ *  
+ **/
 
 
 class PDOConfig extends PDO {
@@ -55,4 +42,15 @@ class PDOConfig extends PDO {
 
 }
 
-?>
+?
+
+/** 
+ * How to use:
+ *
+ *
+ *   $pdo = new PDOConfig;
+ *
+ *   $prepare = $pdo->prepare(...);
+ *   $result  = $prepare->execute();
+ *
+ **/ 
