@@ -42,7 +42,6 @@ class PDOConfig extends PDO {
 
 }
 
-?
 
 /** 
  * How to use:
